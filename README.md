@@ -1,3 +1,3 @@
-# adamandanne2022 This is our loading page for right now!
+# adamandanne2022
 
 This is our loading page for now. Stay paitent!
