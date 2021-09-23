@@ -14,5 +14,6 @@ body {
 }
 
 #church, #ovation {
+  width: 500px;
   height: 350px;
 }
