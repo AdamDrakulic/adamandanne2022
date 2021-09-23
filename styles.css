@@ -1,7 +1,10 @@
 body {
+  font-family: 'Lora', serif;
+}
+
+#top {
   background-image: url("img/weddingbackground.jpg");
-  background-size: 100%;
-  padding-top: 10px;
+  background-size: cover;
 }
 
 #main-info {
