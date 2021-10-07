@@ -1,10 +1,86 @@
 body {
-  font-family: 'Lora', serif;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
 }
 
-#top {
-  background-image: url("img/weddingbackground.jpg");
-  background-size: cover;
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: fixed;
+  width: 234px;
+  height: 220px;
+  left: 120px;
+  top: 80px;
+}
+
+h1 a {
+  position: static;
+  width: 202px;
+  height: 40px;
+  left: 16px;
+  top: 12px;
+
+  font-family: Operetta 8;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+
+
+  /* I do indigo (#090088) */
+
+  color: #090088;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+
+  text-decoration: none;
+}
+
+nav p a {
+  position: static;
+  width: 200px;
+  height: 24px;
+  left: 16px;
+  top: 15px;
+
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+
+  /* Suit black (#333333) */
+
+  color: #333333;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 0px;
+
+  text-decoration: none;
+}
+
+#top img {
+  width: 100vw;
 }
 
 #main-info {
@@ -17,11 +93,147 @@ body {
   height: 75%;
 }
 
-#church, #ovation {
-  width: 500px;
-  height: 350px;
+#wedding-details, #story {
+  margin-left: 378px;
+  margin-right: 120px;
 }
 
-#wedding-details, #schedule, #story {
-  padding-top: 50px;
+#church, #ovation, #ovationOutside {
+  position: static;
+  width: 292px;
+  height: 164px;
+  left: 0px;
+  top: 0px;
+  
+  border-radius: 4px;
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 10px 0px;
+}
+
+#wedding-details {
+  line-height: 8px;
+}
+
+#ourStory {
+  /* Our story */
+
+
+  position: static;
+  width: 942px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Operetta 8;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+
+
+  /* I do indigo (#090088) */
+
+  color: #090088;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+
+.headers {
+  position: static;
+  width: 942px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Operetta 8;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+
+
+  /* I do indigo (#090088) */
+
+  color: #090088;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  text-align: left;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.agendaHeader {
+  position: static;
+  width: 292px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Operetta 8;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+
+  /* Suit black (#333333) */
+
+  color: #333333;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  text-align: left;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.storyHeading {
+  position: static;
+  width: 942px;
+  height: 28px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+
+  /* Suit black (#333333) */
+
+  color: #333333;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
 }
