@@ -22,6 +22,7 @@
         <div class="col-sm-12 col-md-3 text-center">
           <nav class="sticky-top">
             <h1><a href="#">Adam and Anne</a></h1>
+            <p><a href="#rsvp">RSVP</a></p>
             <p><a href="#mainSection">Wedding Day</a></p>
             <p><a href="#lodging">Lodging</a></p>
             <p><a href="#registry">Registry</a></p>
@@ -30,12 +31,21 @@
             <p><a href="#story">Our Story</a></p>
             <!-- <p><a href="#registry">Registry</a></p> -->
           </nav>
-        </div>
+        </div>        
+
         <div class="col-sm-12 col-md-9">
-          <div class="mainSection mt-4" id="mainSection">
-            <h3 class="headers fs-2 text-left lh-1">Wedding Day</h3>
+          <div class="mainSection mt-4">
+            <!-- creating RSVP section -->
+            <div class="row mt-4" id="rsvp">
+              <div class="col">
+                <h3 class="headers fs-2">RSVP</h3>
+                <p>Please use our RSVP system embedded below. If you are unable to display the system properly, please <a href="https://adamandanne2022.rsvpify.com">follow this link to complete your RSVP</a></p>
+                <iframe src="rsvp.html" frameborder="0" width="100%" height="100%" id="iframe"></iframe>
+              </div>
+            </div> 
               <div class="container">
-                <div class="row">
+                <div class="row" id="mainSection">
+                  <h3 class="headers fs-2 text-left lh-1">Wedding Day</h3>
                   <div class="col-12 col-md-4 mb-4">
                     <h3 class="agendaHeader">Ceremony</h3>
                     <img src="img/Church.jpeg" class="img-fluid" alt="St. George Greek Orthodox Church" id="church">
@@ -85,6 +95,7 @@
                   </div>
                 </div>
               </div>
+              
 
       <div class="row" id="lodging">
         <div class="col-12">
@@ -175,23 +186,23 @@
         </div>
       </div>
 
-            <div class="row mt-4" id="story">
-              <div class="col">
-                <h3 class="headers fs-2" id="ourStory">Our Story</h3>
-                <h4 class="storyHeading">The Meeting – April 2017</h4>
-                <p>Our story began in Chicago when mutual friends invited us out for the night. Anne went back to Philadelphia where she was living at the time, but our conversation continued over the next few months. The next time Anne was in Chicago, we met up and decided to date, even though we lived in separate cities. Neither of us can remember our first date because we were already together before we went on a “real” date.</p>
-                <h4 class="storyHeading">The Move - 2018</h4>
-                <p>For the next year, we visited each other every few weeks in Chicago, Philadelphia, or Pittsburgh. After a year of being long-distance, we planned a cross-country move. Anne moved back to Chicago in 2018, and we have been together ever since!</p>
-                <h4 class="storyHeading">The Proposal – May 2020</h4>
-                <p>During the Covid-19 lockdown, we were together 24-7. We had a lot of time to look on Zillow and found a condo we loved in Wrigleyville. We moved on Memorial Day weekend 2020.</p>
-                <p>Two days after the move, Adam suggested we go up to Lake Geneva, Wisconsin to celebrate. He insisted we bring a small flat box with us on our trip. Inside that small flat box were puzzle pieces that spelled out "Will you marry me?" Adam proposed with a beautiful sapphire ring, and Anne was so happy to say yes!</p>
-                <p>It was quite the eventful Memorial Day weekend, and we are thrilled to have an equally memorable Memorial Day in 2022 as we celebrate our story and love with you!</p>
-              </div>
-            </div>           
-          </div>
+      <div class="row mt-4" id="story">
+        <div class="col">
+          <h3 class="headers fs-2" id="ourStory">Our Story</h3>
+          <h4 class="storyHeading">The Meeting – April 2017</h4>
+          <p>Our story began in Chicago when mutual friends invited us out for the night. Anne went back to Philadelphia where she was living at the time, but our conversation continued over the next few months. The next time Anne was in Chicago, we met up and decided to date, even though we lived in separate cities. Neither of us can remember our first date because we were already together before we went on a “real” date.</p>
+          <h4 class="storyHeading">The Move - 2018</h4>
+          <p>For the next year, we visited each other every few weeks in Chicago, Philadelphia, or Pittsburgh. After a year of being long-distance, we planned a cross-country move. Anne moved back to Chicago in 2018, and we have been together ever since!</p>
+          <h4 class="storyHeading">The Proposal – May 2020</h4>
+          <p>During the Covid-19 lockdown, we were together 24-7. We had a lot of time to look on Zillow and found a condo we loved in Wrigleyville. We moved on Memorial Day weekend 2020.</p>
+          <p>Two days after the move, Adam suggested we go up to Lake Geneva, Wisconsin to celebrate. He insisted we bring a small flat box with us on our trip. Inside that small flat box were puzzle pieces that spelled out "Will you marry me?" Adam proposed with a beautiful sapphire ring, and Anne was so happy to say yes!</p>
+          <p>It was quite the eventful Memorial Day weekend, and we are thrilled to have an equally memorable Memorial Day in 2022 as we celebrate our story and love with you!</p>
         </div>
+      </div>         
       </div>
     </div>
+  </div>
+  </div>
 
 
     
@@ -201,4 +212,5 @@
   </body>
   <footer class="text-center mt-4">
     <p>Website built from scratch by Adam, content written by Anne, web design by Brandyn Ausich 😁</p>
+  </footer>
 </html>
